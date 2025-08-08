@@ -42,7 +42,7 @@ UPLOAD_TMP_DIR=./uploads
 
 ## API Endpoints (examples)
 
-### POST /api/v1/hackrx/run
+### POST /api/v1/Routerx/run
 
 Process a PDF from a public URL.
 **Headers:** `Authorization: Bearer <TOKEN>` `Content-Type: application/json`
@@ -80,9 +80,9 @@ backend/
 ├─ server.js                    # app bootstrap
 ├─ package.json
 ├─ routes/
-│  └─ hackrx.js                 # route handlers
+│  └─ Routerx.js                 # route handlers
 ├─ controllers/
-│  └─ hackrxController.js       # validation -> service calls
+│  └─ RouterxController.js       # validation -> service calls
 ├─ services/
 │  ├─ pdfService.js             # download + extract text
 │  ├─ ragService.js             # chunk + retrieve
